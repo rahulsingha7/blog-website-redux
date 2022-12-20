@@ -13,6 +13,7 @@ const initialState = {
       img: "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
       auth_img: "https://avatars.githubusercontent.com/u/73503432?v=4",
       date: "11 Jul, 2022 ·6 min read",
+      time: "·6 min read",
     },
     {
       id: 2,
@@ -21,7 +22,8 @@ const initialState = {
       author: "Learn with sumit",
       img: "https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
       auth_img: "https://avatars.githubusercontent.com/u/73503432?v=4",
-      date: "08 Feb, 2022 ·11 min read",
+      date: "08 Feb, 2022 ",
+      time: "·11 min read",
     },
     {
       id: 3,
@@ -30,7 +32,8 @@ const initialState = {
       author: "Learn with sumit",
       img: "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80",
       auth_img: "https://avatars.githubusercontent.com/u/73503432?v=4",
-      date: "20 Mar, 2022 ·9 min read",
+      date: "20 Mar, 2022 ",
+      time: "·9 min read",
     },
     {
       id: 4,
@@ -39,7 +42,8 @@ const initialState = {
       author: "Kevin Fowler",
       img: "https://i.ibb.co/hBRbFSZ/Blog.jpg",
       auth_img: "https://i.ibb.co/5hW2gRt/Edtkjwp-VAAE7rj-Z.png",
-      date: "April 05, 2019 ·20 min read",
+      date: "April 05, 2019 ",
+      time: "·20 min read",
     },
     {
       id: 5,
@@ -48,7 +52,8 @@ const initialState = {
       author: "Julia Olson",
       img: "https://i.ibb.co/6DN1tBB/3-ways-to-reduce-stress-small-business-payment-processing-1024x688.jpg",
       auth_img: "https://i.ibb.co/HhBq2Yg/juliaheadshot.jpg",
-      date: "April 19, 2021 ·12 min read",
+      date: "April 19, 2021 ",
+      time: "·12 min read",
     },
     {
       id: 6,
@@ -58,7 +63,8 @@ const initialState = {
       author: "Nick Ames",
       img: "https://i.ibb.co/ssv1D2b/5338.webp",
       auth_img: "https://i.ibb.co/5TPCdXy/Nick-Ames.webp",
-      date: "13 Dec 2022 ·8 min read",
+      date: "13 Dec 2022 ",
+      time: "·8 min read",
     },
     {
       id: 7,
@@ -68,7 +74,8 @@ const initialState = {
       author: "Jonathon Wilson",
       img: "https://i.ibb.co/xGwxdCj/3500.webp",
       auth_img: "https://i.ibb.co/FXGBNvb/images.jpg",
-      date: "11 Dec 2022 ·15 min read",
+      date: "11 Dec 2022 ",
+      time: "·15 min read",
     },
     {
       id: 8,
@@ -78,7 +85,8 @@ const initialState = {
       author: "Jonathon Wilson",
       img: "https://i.ibb.co/87gSY9V/4467.webp",
       auth_img: "https://i.ibb.co/FXGBNvb/images.jpg",
-      date: "17 Dec 2022 ·7 min read",
+      date: "17 Dec 2022 ",
+      time: "·7 min read",
     },
     {
       id: 9,
@@ -87,7 +95,8 @@ const initialState = {
       author: "Rachel Roddy",
       img: "https://i.ibb.co/TmKQwRr/3000.webp",
       auth_img: "https://i.ibb.co/qr6Nb1n/Rachel-Roddy-L.webp",
-      date: "19 Dec 2022 ·11 min read",
+      date: "19 Dec 2022 ",
+      time: "·11 min read",
     },
     {
       id: 10,
@@ -96,7 +105,8 @@ const initialState = {
       author: "Rachel Roddy",
       img: "https://i.ibb.co/gRv0FMQ/5760.webp",
       auth_img: "https://i.ibb.co/qr6Nb1n/Rachel-Roddy-L.webp",
-      date: "19 Dec 2022 ·15 min read",
+      date: "19 Dec 2022 ",
+      time: "·15 min read",
     },
   ],
 };

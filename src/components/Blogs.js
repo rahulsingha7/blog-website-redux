@@ -1,7 +1,10 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import Blog from "./Blog";
-
+import blogReducer from "../redux/blogs/blogReducer";
 export default function Blogs() {
+  const blogs = useSelector((state) => state.blogReducer.blogs);
+  console.log(blogs);
   return (
     <section class="relative bg-gray-50 pt-8 pb-20 px-4 sm:px-6 lg:pt-16 lg:pb-16 lg:px-8">
       <div class="absolute inset-0">
@@ -20,10 +23,9 @@ export default function Blogs() {
 
         {/* <!-- card grid  --> */}
         <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-          {/* <!-- single card  --> */}
-             <Blog></Blog>
-          {/* <!-- single card  --> */}
-         
+          {blogs.map((blog) => (
+            <Blog blog={blog} key={blog.id}></Blog>
+          ))}
         </div>
       </div>
     </section>

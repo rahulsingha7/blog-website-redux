@@ -1,5 +1,5 @@
 import React from "react";
-
+import search from "../assets/search.svg";
 export default function Search() {
   return (
     <div class="border mt-6 border-slate-200 flex items-center w-11/12 lg:w-1/2 mx-auto bg-gray-50 h-12 px-5 rounded-lg text-sm ring-emerald-200">
@@ -9,11 +9,7 @@ export default function Search() {
         name="search"
         placeholder="Search"
       />
-      <img
-        class="inline h-6 cursor-pointer"
-        src="./assets/search.svg"
-        alt="Search"
-      />
+      <img class="inline h-6 cursor-pointer" src={search} alt="Search" />
     </div>
   );
 }
